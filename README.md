@@ -141,17 +141,15 @@ Maps a startup's competitive landscape, scores differentiation and moat strength
 
 ## Getting Started
 
-### Claude Desktop
+### Claude Desktop / Claude Cowork
 
 [![Install in Claude Desktop](https://img.shields.io/badge/Install_in_Claude_Desktop-D97757?style=for-the-badge&logo=claude&logoColor=white)](https://lool-ventures.github.io/founder-skills/static/install-claude-desktop.html)
 
-*— or install manually —*
+*— or paste this URL into your browser's address bar to launch the installer —*
 
-1. Click **Customize** in the sidebar
-2. Click **Browse Plugins**
-3. Switch to the **Personal** tab and click **+**
-4. Choose **Add marketplace**
-5. Enter `lool-ventures/founder-skills` and click **Sync**
+```
+claude://claude.ai/customize/plugins/new?marketplace=https://github.com/lool-ventures/founder-skills&plugin=founder-skills
+```
 
 ### Any Agent (npx)
 
@@ -163,14 +161,7 @@ npx skills add lool-ventures/founder-skills
 
 ### Claude Cowork
 
-1. Open **Customize** in the sidebar
-2. Click **+** on the **Personal Plugins** list
-3. Choose **Browse Plugins**
-4. Switch to the **Personal** tab
-5. Click the **+** button
-6. Choose **Add marketplace from GitHub**
-7. Enter `lool-ventures/founder-skills`
-8. **Sync**, then **Install**
+
 
 ### Claude Code
 
